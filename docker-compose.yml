@@ -26,7 +26,7 @@ services:
     volumes:
      - ./:/var/www/cms
     ports:
-     - "80:80"
+     - "4000:80"
     environment:
       XIBO_DEV_MODE: "true"
     links:
